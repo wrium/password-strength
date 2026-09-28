@@ -1,0 +1,44 @@
+{
+  "name": "@wrium/password-strength",
+  "version": "1.0.0",
+  "description": "Password strength directive plugin for Wrium - flags weak/common passwords as you type.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "dist/types"
+  ],
+  "peerDependencies": {
+    "@wrium/wrium": "^1.0.0"
+  },
+  "devDependencies": {
+    "@wrium/wrium": "^1.0.0",
+    "jsdom": "^30.1.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  },
+  "scripts": {
+    "test": "vitest",
+    "build:types": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrium/password-strength.git"
+  },
+  "homepage": "https://github.com/wrium/password-strength",
+  "keywords": [
+    "wrium",
+    "wrium-plugin",
+    "password-strength",
+    "password-validation"
+  ],
+  "author": "Benjamin Khalife",
+  "license": "MIT"
+}
