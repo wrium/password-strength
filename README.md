@@ -1,4 +1,8 @@
-# @wrium/password-strength
+<p align="center">
+  <img src="./assets/password-strength.webp" alt="Wrium Password Strength logo" width="200" />
+</p>
+
+# Wrium Password Strength
 
 A [Wrium](https://github.com/wrium/wrium) plugin that flags weak or common
 passwords as the user types, via a `v-password-strength` directive.
